@@ -1,0 +1,44 @@
+
+/* navbar */
+
+.navbar{
+    background-color: #b8e356;
+    width: 100%;
+}
+
+.navbar-brand{
+    font-family: 'Rubik', sans-serif;
+    font-size: 200%;
+}
+
+.nav-link{
+    font-family: 'Rubik', sans-serif;
+    font-size: 150%;
+    margin: 1%;
+}
+
+/* projects */
+li{
+    font-family: 'Rubik', sans-serif;
+}
+.project{
+    padding: 2%;
+}
+
+.img-container{
+    width: 100%;
+}
+
+.description{
+    width: 50%;
+    text-align: left;
+    margin: 3% auto;
+}
+
+.btn{
+    margin: 3%;
+}
+
+.even{
+    background-color: #C9E5EB;
+}

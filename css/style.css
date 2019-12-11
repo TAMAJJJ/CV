@@ -97,6 +97,11 @@ a{
     width: 150px;
 }
 
+#girl-img{
+    background-color: #C9E5EB;
+    border-radius: 100%;
+}
+
 #data-image{
     float: left;
     margin: 30px;
