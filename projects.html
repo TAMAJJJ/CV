@@ -4,23 +4,26 @@
 <head>
     <meta charset="utf-8">
     <title>My Projects</title>
+    <link rel="icon" href="favicon.ico">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/projects.css">
+    <link href="https://fonts.googleapis.com/css?family=Righteous|Rubik|Sacramento&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0a58bbf464.js" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </head>
 
 <body class="projects-bg">
     <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="#">My Projects</a>
+    <nav id="nav" class="navbar navbar-expand-lg navbar-dark">
+        <h2 class="navbar-brand" href="#"><i class="fas fa-tasks"></i> My Projects</h2>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link" href="index.html"><i class="fas fa-home">HOME</i></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#html-css">HTML/CSS</a>
@@ -38,9 +41,12 @@
         </div>
     </nav>
 
+    <a class="btn" href="#nav"><i class="fas fa-chevron-circle-up fa-4x up-icon"></i></a>
+
+
     <section id="html-css">
         <div class="project odd">
-            <h3>Tin Dog Practice Website</h3>
+            <h2 class="title">Tin Dog Practice Website</h2>
             <p>Dec. 2019</p>
             <ul class="description">
                 <li>Front-end design with <strong>HTML and CSS</strong></li>
@@ -60,7 +66,7 @@
     <section id="html-css-js">
 
         <div class="project even">
-            <h3>CHATTO (Real-time translation web-based app)</h3>
+            <h2 class="title">CHATTO (Real-time translation web-based app)</h2>
             <p>Oct. 2019</p>
             <ul  class="description">
                 <li>Design front-end with <strong>Adobe XD</strong> and realize with <strong>HTML and CSS</strong></li>
@@ -76,8 +82,26 @@
             <hr>
         </div>
 
-        <div class="project odd">
-            <h3>Classic Arcade Game</h3>
+        <div class="project even">
+            <h2 class="title">Memory Game</h2>
+            <p>May. 2019</p>
+            <ul  class="description">
+                <li>Utilize <strong>HTML, CSS and JavaScript </strong>to build a basic memory game</li>
+                <li>Structure the UI with <strong>CSS</strong></li>
+                <li>Use <strong>DOM</strong>to control each section of the game and set the <strong>Event-Listeners</strong></li>
+
+            </ul>
+            <div class="img-container">
+                <img class="project-img" src="pictures/memory-game.png" alt="memory-game" height="500px">
+            </div>
+
+            <a href="https://tamajjj.github.io/Memory-Game/" class="btn btn-lg btn-info">Click Me</a>
+            <br>
+            <hr>
+        </div>
+
+        <div class="project even">
+            <h2 class="title">Classic Arcade Game</h2>
             <p>May. 2019</p>
             <ul  class="description">
                 <li>Utilize <strong>HTML, CSS and JavaScript </strong>to build a clone of classic arcade game</li>
@@ -98,8 +122,8 @@
 
 
     <section id="react">
-        <div class="project even">
-            <h3>Easy-submit (web-based app for crop homework and download)</h3>
+        <div class="project odd">
+            <h2 class="title">Easy-submit (web-based app for crop homework and download)</h2>
             <p>Dec. 2019</p>
             <ul  class="description">
                 <li>UI design with <strong>CSS</strong> and structure the app with <strong>React</strong></li>
@@ -120,8 +144,8 @@
 
     <section id="java">
 
-        <div class="project odd">
-            <h3>AI Checker</h3>
+        <div class="project even">
+            <h2 class="title">AI Checker</h2>
             <p>Sep. 2019</p>
             <ul class="description">
                 <li>Well-structured class with Object-Oriented design by <strong>JAVA</strong></li>
@@ -140,7 +164,7 @@
 
 
         <div class="project even">
-            <h3>Street Mapping</h3>
+            <h2 class="title">Street Mapping</h2>
             <p>May. 2019</p>
             <ul class="description">
                 <li>Implement <strong>Dijkstra’s Algorithm</strong> with <strong>JAVA</strong> to generate the shortest path</li>

@@ -95,11 +95,13 @@ a{
 
 .images{
     width: 150px;
+
 }
 
 #girl-img{
     background-color: #C9E5EB;
     border-radius: 100%;
+    padding: 1%;
 }
 
 #data-image{

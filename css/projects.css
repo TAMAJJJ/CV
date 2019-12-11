@@ -17,7 +17,22 @@
     margin: 1%;
 }
 
+/* icon */
+.up-icon{
+    position: fixed;
+    right: 5%;
+    bottom: 5%;
+    color: #a5cc52;
+}
+
+.up-icon:hover{
+    color: #b8e356;
+}
+
 /* projects */
+.title{
+    color: #BF4E30;
+}
 li{
     font-family: 'Rubik', sans-serif;
 }

@@ -1,0 +1,16 @@
+.top-div{
+    color: #E296AD;
+    background-color: #C9E5EB;
+    padding: 2%;
+    margin-bottom: 5%;
+}
+
+label{
+    font-family: 'Rubik', sans-serif;
+}
+
+form{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
